@@ -86,6 +86,8 @@ Eğitim süreci sonunda elde edilen doğruluk oranları:
 - **Eğitim Doğruluğu:** %98.5  
 - **Doğrulama Doğruluğu:** %96.43  
 
+![image](https://github.com/user-attachments/assets/8f8f5d99-35b1-47d1-99ee-ad1ff1e7e1ed)
+
 Test veri seti üzerinde modelin performansı değerlendirilmiştir:
 
 - **Test Kıyıp Değeri:** 0.0073  
