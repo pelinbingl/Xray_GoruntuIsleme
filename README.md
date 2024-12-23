@@ -122,12 +122,12 @@ Aşağıda, eğitim ve test veri setlerinden rastgele seçilen görüntüler yer
 
 - **Normal:**
 
-![Eğitim Normal Görüntüsü]![IM-0003-0001](https://github.com/user-attachments/assets/ffef49db-5702-4b40-9940-936d2bf59ca8)
+[IM-0003-0001](https://github.com/user-attachments/assets/ffef49db-5702-4b40-9940-936d2bf59ca8)
 
 
 - **Hasta:**
 
-![Eğitim Hasta Görüntüsü]![1-s2 0-S1684118220300608-main pdf-002](https://github.com/user-attachments/assets/bb07d14b-3c8e-4a03-a1c3-60d7041cf2d5)
+[1-s2 0-S1684118220300608-main pdf-002](https://github.com/user-attachments/assets/bb07d14b-3c8e-4a03-a1c3-60d7041cf2d5)
 
 
 
