@@ -33,6 +33,15 @@ val_data = train_datagen.flow_from_directory(
     class_mode='binary',
     subset='validation'
 )
+
+# Test veri seti için ayrı şekilde normalize edilmiş ImageDataGenerator
+test_datagen = ImageDataGenerator(rescale=1.0/255)
+test_data = test_datagen.flow_from_directory(
+    test_dir,
+    target_size=(224, 224),
+    batch_size=32,
+    class_mode='binary'
+)
 ```
 
 ## Model Mimarisi
@@ -86,8 +95,6 @@ Eğitim süreci sonunda elde edilen doğruluk oranları:
 - **Eğitim Doğruluğu:** %98.5  
 - **Doğrulama Doğruluğu:** %96.43  
 
-![image](https://github.com/user-attachments/assets/8f8f5d99-35b1-47d1-99ee-ad1ff1e7e1ed)
-
 Test veri seti üzerinde modelin performansı değerlendirilmiştir:
 
 - **Test Kıyıp Değeri:** 0.0073  
@@ -108,11 +115,28 @@ plt.title('Eğitim ve Doğrulama Doğruluk Oranları')
 plt.show()
 ```
 
-## Modelin Kaydedilmesi
-Eğitim tamamlandıktan sonra model **.h5** formatında kaydedilmiştir.
+## Train ve Test Datasetinden Görüntüler
+Aşağıda, eğitim ve test veri setlerinden rastgele seçilen görüntüler yer almaktadır. 
 
-```python
-model.save("C:/Users/bingl/OneDrive/Masaüstü/xray_model.h5")
-print("Model başarıyla kaydedildi!")
-```
+### Eğitim Verisi
+
+- **Normal:**
+
+![Eğitim Normal Görüntüsü]![IM-0003-0001](https://github.com/user-attachments/assets/ffef49db-5702-4b40-9940-936d2bf59ca8)
+
+
+- **Hasta:**
+
+![Eğitim Hasta Görüntüsü]![1-s2 0-S1684118220300608-main pdf-002](https://github.com/user-attachments/assets/bb07d14b-3c8e-4a03-a1c3-60d7041cf2d5)
+
+
+### Test Verisi
+
+- **Normal:**
+
+![Test Normal Görüntüsü](https://github.com/user-attachments/assets/test_normal_sample.jpg)
+
+- **Hasta:**
+
+![Test Hasta Görüntüsü](https://github.com/user-attachments/assets/test_pneumonia_sample.jpg)
 
