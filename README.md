@@ -120,14 +120,16 @@ Aşağıda, eğitim ve test veri setlerinden rastgele seçilen görüntüler yer
 
 ### Eğitim Verisi
 
-- **Normal:**
+- *Normal:*
 
-[IM-0003-0001](https://github.com/user-attachments/assets/ffef49db-5702-4b40-9940-936d2bf59ca8)
+![Eğitim Normal Görüntüsü]![IM-0005-0001](https://github.com/user-attachments/assets/8c2e0343-8e8c-4f60-9ec5-da7ae594556e)
 
 
-- **Hasta:**
+- *Hasta:*
 
-[1-s2 0-S1684118220300608-main pdf-002](https://github.com/user-attachments/assets/bb07d14b-3c8e-4a03-a1c3-60d7041cf2d5)
+![Eğitim Hasta Görüntüsü]![1-s2 0-S1684118220300608-main pdf-001](https://github.com/user-attachments/assets/b50ac4bc-2e44-4966-9ed5-63e9bd8527f1)
+
+
 
 
 
