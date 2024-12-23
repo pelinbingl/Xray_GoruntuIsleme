@@ -130,13 +130,6 @@ Aşağıda, eğitim ve test veri setlerinden rastgele seçilen görüntüler yer
 ![Eğitim Hasta Görüntüsü]![1-s2 0-S1684118220300608-main pdf-002](https://github.com/user-attachments/assets/bb07d14b-3c8e-4a03-a1c3-60d7041cf2d5)
 
 
-### Test Verisi
 
-- **Normal:**
 
-![Test Normal Görüntüsü](https://github.com/user-attachments/assets/test_normal_sample.jpg)
-
-- **Hasta:**
-
-![Test Hasta Görüntüsü](https://github.com/user-attachments/assets/test_pneumonia_sample.jpg)
 
